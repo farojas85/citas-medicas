@@ -1,0 +1,58 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+$fa-font-path: "../webfonts";
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+
+//STARTBOOTSTRAP
+@import '~startbootstrap-landing-page/css/landing-page.min.css';
+
+//ADMINLTE
+@import '~admin-lte/dist/css/adminlte.css';
+@import '~admin-lte/plugins/select2/css/select2.min.css';
+@import '~admin-lte/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css';
+
+//FONT AWESOME
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-rounded {
+    height: 30px;
+    padding: 2px 6px;
+    border-radius: 15px;
+}
+
+.bg-gradient-warning {
+    color: #FFF;
+    background-color: #ffbb00;
+    border-color: #ffbb00
+}
+
+.router-link-exact-active  {
+    background-color:#007bff;
+    color:#FFF;
+    border-radius: 0.25em;
+}
+
+// .mouse-pointer {
+//     cursor: pointer;
+//     background-color:#FFF;
+// }
+
+// .mouse-pointer:hover {
+//     background-color: #ffbb00;
+// }
